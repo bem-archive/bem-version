@@ -1,6 +1,6 @@
 {
   "name": "bem-version",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Version helper link `npm version` as a bem-tools command extension. Works with package.json and bower.json files.",
   "homepage": "http://github.com/bem/bem-version",
   "author": "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)",
@@ -33,7 +33,7 @@
     "jshint": "~2.1.4"
   },
   "peerDependencies": {
-    "bem": ">= 0.6.9"
+    "bem": ">= 1.0.0-alpha1 <= 2.0.0"
   },
   "optionalDependencies": {},
   "scripts": {
