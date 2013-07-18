@@ -1,0 +1,49 @@
+{
+  "name": "bem-version",
+  "version": "0.0.0",
+  "description": "Version helper link `npm version` as a bem-tools command extension. Works with package.json and bower.json files.",
+  "homepage": "http://github.com/bem/bem-version",
+  "author": "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)",
+  "bugs": {
+    "url": "http://github.com/bem/bem-version/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem/bem-version.git"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "bin": {
+    "bem-version": "bin/bem-version"
+  },
+  "main": "lib/version.js",
+  "dependencies": {
+    "q": "~0.9.6",
+    "coa": "~0.4.0",
+    "which": "~1.0.5",
+    "semver": "~2.0.10",
+    "q-io": "~1.9.1"
+  },
+  "devDependencies": {
+    "istanbul": "*",
+    "mocha-as-promised": "*",
+    "mocha-istanbul": "*",
+    "mocha": "*",
+    "jshint": "~2.1.4"
+  },
+  "peerDependencies": {
+    "bem": ">= 0.6.9"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "make test",
+    "coverage": "make coverage"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/bem/bem-version/raw/master/LICENSE"
+    }
+  ]
+}
